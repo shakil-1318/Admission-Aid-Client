@@ -1,0 +1,62 @@
+.counter-section {
+    padding: 70px 0;
+    background: #fafafa url(https://elearni.wpenginepowered.com/wp-content/uploads/2021/08/violet-pista-curve.png?id=20145) !important;
+}
+
+.counters {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.counter {
+    text-align: center;
+    position: relative;
+    -webkit-border-radius: 40px 10px 10px;
+    -moz-border-radius: 40px 10px 10px;
+    border-radius: 40px 10px 10px;
+    z-index: 1;
+    padding: 70px 20px 60px;
+    transition: all .3s linear;
+}
+
+.counter:hover {
+    background-color: #6a7df1;
+    color: white;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
+}
+
+
+.counter-img {
+    max-width: 55px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.counter-number {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #835ff8;
+    word-spacing: 0.16em;
+    margin-bottom: 12px;
+}
+
+.counter:hover .counter-number {
+    color: white;
+}
+
+.counter-text {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0;
+}
+
+.counter:hover .counter-text {
+    color: white;
+}

@@ -1,0 +1,20 @@
+.exam-btn {
+    border-radius: 5px !important;
+}
+
+.feature {
+    transition: all .3s ease;
+    background-color: #fafafa;
+}
+
+.feature:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.feature-content {
+    padding: 20px;
+}
+
+.feature img {
+    height: 200px;
+}

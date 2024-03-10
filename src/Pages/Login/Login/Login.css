@@ -1,0 +1,37 @@
+.login-section {
+    padding: 80px 0;
+    background-color: #9A616D;
+}
+
+.login-wrapper {
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    overflow: hidden;
+
+}
+
+.login-title-wrap {
+    margin-bottom: 40px;
+}
+
+.login-title {
+    color: var(--color-black);
+
+}
+
+.login-form {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.login-btn {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+}
+
+.login-btn:focus {
+    outline: none;
+}

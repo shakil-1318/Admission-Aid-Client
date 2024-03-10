@@ -1,0 +1,41 @@
+.main-nav {
+    background-color: #222222 !important;
+}
+
+
+
+
+
+
+
+.logo {
+    width: 127px;
+}
+
+.navbar-link {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.navbar-link:hover {
+    color: var(--color-primary) !important;
+}
+
+
+.nav-right-login i {
+
+    margin-right: 10px;
+}
+
+.nav-right-login a {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.nav-right-login a:hover {
+    color: var(--color-primary) !important;
+}

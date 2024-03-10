@@ -1,0 +1,25 @@
+.contact-section {
+    overflow: hidden;
+}
+
+.contact-img-wrapper {
+    max-width: fit-content;
+}
+
+.contact-header-wrapper {
+    margin-bottom: 60px;
+}
+
+.contact-title {
+    font-size: 48px;
+    color: var(--color-black);
+}
+
+.contact-content-wrapper {
+    padding: 100px 60px 60px 60px;
+}
+
+.contact-info h6 {
+    font-size: 20px;
+    color: var(--color-black);
+}

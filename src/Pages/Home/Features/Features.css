@@ -1,0 +1,30 @@
+.home-feature-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.features-header-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.features-title {
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.features-text {
+    text-transform: capitalize;
+}
+
+.home-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+}
